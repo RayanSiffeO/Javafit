@@ -3,12 +3,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package poo.javafit;
+import java.io.Serializable;
 import java.util.ArrayList;
 /**
  *
  * @author RAYANs
  */
-public class Monitor {
+public class Monitor implements Serializable {
     
     private String nombre;
     private TipoActividad especialidad;

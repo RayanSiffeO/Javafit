@@ -163,6 +163,33 @@ public class GymManager {
         }
     }
 
+    public void guardarDatos() {
+        try (ObjectOutputStream oos = new ObjectOutputStream(
+                new FileOutputStream("gymdata.dat"))) {
+            oos.writeObject(actividades);
+            oos.writeObject(socios);
+            oos.writeObject(reservas);
+            oos.writeObject(monitores);
+            System.out.println("Datos guardados correctamente.");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @SuppressWarnings("unchecked")
+    public void cargarDatos() {
+        try (ObjectInputStream ois = new ObjectInputStream(
+                new FileInputStream("gymdata.dat"))) {
+            actividades = (ArrayList<Actividades>) ois.readObject();
+            socios = (ArrayList<Socios>) ois.readObject();
+            reservas = (ArrayList<Reserva>) ois.readObject();
+            monitores = (ArrayList<Monitor>) ois.readObject();
+            System.out.println("Datos cargados correctamente.");
+        } catch (IOException | ClassNotFoundException e) {
+            System.out.println("No hay datos previos, empezando desde cero.");
+        }
+    }
+
     public void añadirActividad(Actividades a) {
         actividades.add(a);
     }

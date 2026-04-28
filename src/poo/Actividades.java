@@ -4,11 +4,13 @@
  */
 package poo.javafit;
 
+import java.io.Serializable;
+
 /**
  *
  * @author RAYANs
  */
-public abstract class Actividades {
+public abstract class Actividades implements Serializable {
     
     private String nombre;
     private TipoActividad tipo;

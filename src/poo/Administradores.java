@@ -14,6 +14,7 @@ public class Administradores extends Usuarios{
     super(correo, clave);
     }
     
+        
     @Override
      public String tipoUsuario() {
         return "Administrador";

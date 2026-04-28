@@ -5,12 +5,12 @@
 package poo.javafit;
 
 import java.time.LocalDate;
-
+import java.io.Serializable;
 /**
  *
  * @author RAYANs
  */
-public class Reserva {
+public class Reserva implements Serializable {
 
     private Socios socio;
     private Actividades actividad;

@@ -3,12 +3,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package poo.javafit;
-
+import java.io.Serializable;
 /**
  *
  * @author RAYANs
  */
-public class Sala {
+public class Sala implements Serializable {
     
     private int maxaforo;
     private String nombre;

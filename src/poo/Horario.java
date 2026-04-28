@@ -4,11 +4,12 @@
  */
 package poo.javafit;
 import java.time.LocalTime;
+import java.io.Serializable;
 /**
  *
  * @author RAYANs
  */
-public class Horario {
+public class Horario implements Serializable {
     public enum Dia {
     LUNES,
     MARTES,

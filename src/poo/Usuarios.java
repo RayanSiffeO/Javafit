@@ -3,12 +3,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package poo.javafit;
-
+import java.io.Serializable;
 /**
  *
  * @author RAYANs
  */
-public abstract class Usuarios {
+public abstract class Usuarios implements Serializable {
     
     private String correo;
     private String clave;
