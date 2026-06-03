@@ -1,0 +1,56 @@
+SOCIO: Carlos Gómez
+ACTIVIDAD: Yoga Matutino
+HORARIO: LUNES
+PRECIO: 0.0
+FECHA: 2026-05-26
+TARJETA: Tipo= Visa Numero= 1234567890123456 Caducidad= 2029-12-31
+----------------------
+SOCIO: Carlos Gómez
+ACTIVIDAD: Crossfit HIIT
+HORARIO: VIERNES
+PRECIO: 19.99
+FECHA: 2026-05-26
+TARJETA: Tipo= Visa Numero= 1234567890123456 Caducidad= 2029-12-31
+----------------------
+SOCIO: Ana López
+ACTIVIDAD: Cardio Intensivo
+HORARIO: MARTES
+PRECIO: 0.0
+FECHA: 2026-05-26
+TARJETA: Tipo= Mastercard Numero= 9876543210987654 Caducidad= 2028-05-15
+----------------------
+SOCIO: Ana López
+ACTIVIDAD: Yoga VIP Premium
+HORARIO: JUEVES
+PRECIO: 29.99
+FECHA: 2026-05-26
+TARJETA: Tipo= Mastercard Numero= 9876543210987654 Caducidad= 2028-05-15
+----------------------
+SOCIO: Laura Martínez
+ACTIVIDAD: Crossfit HIIT
+HORARIO: VIERNES
+PRECIO: 17.991
+FECHA: 2026-05-26
+TARJETA: Tipo= American Express Numero= 4444333322221111 Caducidad= 2027-11-01
+----------------------
+SOCIO: Rayan
+ACTIVIDAD: Yoga Matutino
+HORARIO: LUNES
+PRECIO: 0.0
+FECHA: 2026-05-26
+TARJETA: Tipo= Visa Numero= 3232323232323232 Caducidad= 2030-05-26
+----------------------
+SOCIO: Rayan
+ACTIVIDAD: Crossfit HIIT
+HORARIO: VIERNES
+PRECIO: 17.991
+FECHA: 2026-05-26
+TARJETA: Tipo= Visa Numero= 3232323232323232 Caducidad= 2030-05-26
+----------------------
+SOCIO: Rayan
+ACTIVIDAD: Yoga Matutino
+HORARIO: LUNES
+PRECIO: 0.0
+FECHA: 2026-05-26
+TARJETA: Tipo= Visa Numero= 5555444433332222 Caducidad= 2030-08-20
+----------------------
